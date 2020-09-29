@@ -98,6 +98,7 @@ const StyledButton = styled.button`
     background-color: ${(props) =>
       props.variant === "text" ? "transparent" : "#e0e0e0"};
     color: #9e9e9e;
+    cursor: not-allowed;
   }
 `;
 
