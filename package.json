@@ -1,0 +1,28 @@
+{
+  "name": "button-component",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "rm -rf dist && parcel index.html",
+    "build": "rm -rf build && parcel build index.html --dist-dir build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "@storybook/addon-actions": "^6.0.22",
+    "@storybook/addon-essentials": "^6.0.22",
+    "@storybook/addon-links": "^6.0.22",
+    "@storybook/react": "^6.0.22",
+    "babel-loader": "^8.1.0",
+    "parcel": "^2.0.0-beta.1",
+    "react-is": "^16.13.1"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.2.0"
+  }
+}
