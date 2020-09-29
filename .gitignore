@@ -1,5 +1,6 @@
 node_modules
 .parcel-cache
 .netlify
+storybook-static
 build
 dist

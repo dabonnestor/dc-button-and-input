@@ -1,6 +1,6 @@
-# Checkout
+# Button Component
 
-In this challenge, you will work with the form in a modern and minimal design. The challenge will bring your HTML and CSS to a new level.
+One of the best ways to learn front-end libraries is to create a reusable component. In this challenge, your task is to create a reusable button.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d1124125-8fd7-4b34-9d39-f167c48403a1/deploy-status)](https://app.netlify.com/sites/gracious-yonath-637c87/deploys)
 
@@ -13,6 +13,18 @@ yarn
 ```
 
 ## Usage
+
+Run storybook
+
+```bash
+yarn storybook
+```
+
+Run storybook production build
+
+```bash
+yarn build-storybook
+```
 
 Run development server
 
